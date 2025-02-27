@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
                 <div className={classes.info}>
                   <h3>TELEFON</h3>
-                  <p>+49 1729480898</p>
+                  <p>07233 942 6463</p>
                 </div>
               </div>
 

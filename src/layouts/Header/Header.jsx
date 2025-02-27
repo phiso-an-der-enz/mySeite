@@ -16,12 +16,12 @@ const Header = () => {
           <div className={classes.header_phone}>
             <a
               className={classes.text}
-              href="tel:+491729480898"
+              href="tel:+49 7233 942 6463"
               target="_blank"
               rel="noreferrer"
             >
               <MdPhone className={`${classes.icon} ${classes.iconHidden}`} />
-              +49 1729 480 898
+              07233 942 6463
             </a>
           </div>
           <a
