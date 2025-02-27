@@ -1,0 +1,78 @@
+.footer_wrap {
+  padding: clamp(1rem, 0.5rem + 2.22vw, 2.5rem) 0;
+}
+
+.links_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer_contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: clamp(0.875rem, 0.542rem + 1.48vw, 1.875rem);
+}
+
+.img {
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: clamp(0.438rem, 0.271rem + 0.74vw, 0.938rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adress {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: clamp(0.625rem, 0.417rem + 0.93vw, 1.25rem);
+}
+
+.info {
+  text-align: left;
+}
+
+h3 {
+  font-size: clamp(0.875rem, 0.667rem + 0.93vw, 1.5rem);
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+p {
+  font-weight: 600;
+  font-size: clamp(0.75rem, 0.667rem + 0.37vw, 1rem);
+}
+
+.right_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkImpressum {
+  color: black;
+}
+
+.icon {
+  width: clamp(1.5rem, 1.167rem + 1.48vw, 2.5rem);
+}
+
+.footImpressum {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 500px) {
+  .footer_contact {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .links_wrap {
+    margin-bottom: 15px;
+  }
+}
