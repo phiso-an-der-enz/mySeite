@@ -68,7 +68,7 @@ const Footer = () => {
             <Link to={ROUTES.IMPRESSUM} className={classes.linkImpressum}>
               Impressum
             </Link>
-            <Link to={ROUTES.IMPRESSUM} className={classes.linkImpressum}>
+            <Link to={ROUTES.DATENSCHUTZ} className={classes.linkImpressum}>
               Datenschutz
             </Link>
           </div>

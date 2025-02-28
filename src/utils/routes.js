@@ -4,5 +4,6 @@ export const ROUTES = {
   GALEREA: '/galerea',
   NOTFOUNDPAGE: '/*',
   ABOUT: '/about',
-  PRAXIS: '/praxis'
+  PRAXIS: '/praxis',
+  DATENSCHUTZ: '/datenschutz',
 };
