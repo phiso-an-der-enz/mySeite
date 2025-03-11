@@ -37,7 +37,7 @@ const Header = () => {
             <MdAlternateEmail
               className={`${classes.icon} ${classes.iconHidden}`}
             />
-            phisio-an-der-enz@gmail.com
+            info@padenz.de
           </a>
         </div>
       </div>

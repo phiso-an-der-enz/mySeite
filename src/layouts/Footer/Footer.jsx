@@ -42,7 +42,7 @@ const Footer = () => {
                 </div>
                 <div className={classes.info}>
                   <h3>EMAIL</h3>
-                  <p>phisio-an-der-enz@gmail.com</p>
+                  <p>info@padenz.de</p>
                 </div>
               </div>
             </div>
