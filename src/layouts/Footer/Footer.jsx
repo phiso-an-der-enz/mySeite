@@ -1,6 +1,5 @@
 import classes from './Footer.module.css';
 import { SlLocationPin } from 'react-icons/sl';
-import { MdPhone } from 'react-icons/md';
 import { MdAlternateEmail } from 'react-icons/md';
 import { MdOutlineTimer } from 'react-icons/md';
 import GoogleMap from '../../components/GoogleMap/GoogleMap';

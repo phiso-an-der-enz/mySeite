@@ -2,12 +2,20 @@ import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
 import classes from './SubHeader.module.css';
 import { ROUTES } from './../../utils/routes';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { IoMdMenu } from 'react-icons/io';
 import { MdClose } from 'react-icons/md';
+import { useClickOutside } from '../../customHooks/useClickOutSide';
 
 const SubHeader = () => {
-  const [isOpen, setIsOpen] = useState();
+  const [isOpen, setIsOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  useClickOutside(menuRef, () => {
+    if (isOpen) {
+      setIsOpen(false);
+    }
+  });
 
   return (
     <div className={classes.subWrapper}>
@@ -17,10 +25,13 @@ const SubHeader = () => {
             <img src={logo} alt="Logo" className={classes.logo} />
           </Link>
 
-          <nav className={`${classes.nav} ${isOpen ? classes.active : ''}`}>
+          <nav
+            ref={menuRef}
+            className={`${classes.nav} ${isOpen ? classes.active : ''}`}
+          >
             <MdClose
               className={classes.close}
-              onClick={() => setIsOpen(!isOpen)}
+              onClick={() => setIsOpen(false)}
               style={{ display: isOpen ? 'block' : 'none' }}
             />
             <ul className={classes.navigation}>
@@ -46,6 +57,7 @@ const SubHeader = () => {
               </li>
             </ul>
           </nav>
+
           <button
             className={classes.menu_button}
             onClick={() => setIsOpen(!isOpen)}
@@ -57,4 +69,5 @@ const SubHeader = () => {
     </div>
   );
 };
+
 export default SubHeader;

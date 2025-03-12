@@ -33,7 +33,7 @@ const Header = () => {
             <SiWhatsapp className={classes.icon} />
           </a>
 
-          <a href="mailto:phisio-an-der-enz@gmail.com" className={classes.text}>
+          <a href="mailto:info@padenz.de" className={classes.text}>
             <MdAlternateEmail
               className={`${classes.icon} ${classes.iconHidden}`}
             />

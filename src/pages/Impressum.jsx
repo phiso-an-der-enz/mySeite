@@ -1,4 +1,10 @@
+import { useEffect } from 'react';
+
 const Impressum = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div style={{ textAlign: 'left', padding: '20px 0' }}>
       <div className="container">
@@ -13,7 +19,7 @@ const Impressum = () => {
         <br />
         <p>Tel: 07233 942 6463</p>
         <br />
-        <p>Email: phisio-an-der-enz@gmail.com</p>
+        <p>Email: info@padenz.de</p>
         <br />
         <br />
         <br />
