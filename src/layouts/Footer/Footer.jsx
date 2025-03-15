@@ -30,8 +30,9 @@ const Footer = () => {
                   <MdOutlineLocalPhone className={classes.icon} />
                 </div>
                 <div className={classes.info}>
-                  <h3>TELEFON</h3>
-                  <p>07233 942 6463</p>
+                  <h3>TELEFON | FAX</h3>
+                  <p>Tel: 07233 942 6463</p>
+                  <p>Fax: 07233 942 6464</p>
                 </div>
               </div>
 
