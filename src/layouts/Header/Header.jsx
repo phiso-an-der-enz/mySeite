@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container">
         <div className={classes.header_high}>
           <p className={`${classes.logoText} ${classes.logoTextHidden}`}>
-            Phisio an der Enz
+            Physio an der Enz
           </p>
           <img src={logo} alt="Logo" className={classes.logo} />
           <div className={classes.header_phone}>
