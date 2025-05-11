@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.physio-an-der-enz.de/sitemap.xml
